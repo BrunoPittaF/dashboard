@@ -1,0 +1,67 @@
+$white: #fff;
+
+.mainLogin {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+
+  .boxLogin {
+    background-color: #c52d1c;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 4px -2px,
+      rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 50%) 0px 1px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 340px;
+    padding: 30px 40px 0px;
+    border-radius: 30px;
+
+    h1 {
+      text-align: center;
+      color: $white;
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 0;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 40px 0px 0px;
+      .wrapper {
+        svg {
+          color: white;
+        }
+        input {
+          margin-left: 10px;
+          border-radius: 10px;
+          border: none;
+          outline: none;
+          height: 40px;
+          padding: 5px 10px;
+        }
+        &:nth-of-type(2) {
+          margin-top: 14px;
+        }
+      }
+      button {
+        margin-top: 40px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background-color: #e73622;
+        color: $white;
+        text-transform: uppercase;
+        padding: 5px 10px;
+        box-shadow: rgb(0 0 0 / 50%) 0px 4px 4px -2px,
+          rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 50%) 0px 1px 5px 0px;
+        width: 100px;
+        align-self: center;
+      }
+    }
+  }
+}
