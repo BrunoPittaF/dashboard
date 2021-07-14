@@ -5,8 +5,10 @@
   .title {
     color: #000;
     font-size: 34px;
-    text-transform: uppercase;
     font-weight: 900;
+    span {
+      font-weight: 500;
+    }
   }
 }
 
